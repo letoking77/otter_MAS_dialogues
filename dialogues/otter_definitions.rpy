@@ -1,3 +1,6 @@
+init 5 python in mas_bookmarks_derand:
+    label_prefix_map["otter_"] = label_prefix_map["monika_"]
+
 init 5 python:
     addEvent(
         Event(
@@ -11,8 +14,8 @@ init 5 python:
     )
 
 label otter_playtime:
-    m "We've been together for [mas_getTotalPlaytime()]."
-    m "I love you, [player]!"
+    m 3eub "We've been together for [mas_getTotalPlaytime()]."
+    m 5hubla "I love you, [player]!"
 return "love"
 
 init 5 python:
@@ -28,8 +31,8 @@ init 5 python:
     )
 
 label otter_dailyplaytime:
-    m "Today, we spent [mas_getSessionLength()] together."
-    m "I love you, [player]!"
+    m 3eub "Today, we spent [mas_getSessionLength()] together."
+    m 5hubla "I love you, [player]!"
 return "love"
 
 init 5 python:
@@ -45,8 +48,8 @@ init 5 python:
     )
 
 label otter_absence:
-    m "I waited for you for [mas_getAbsenceLength()]."
-    m "I missed you, [player]!"
+    m 3eub "I waited for you for [mas_getAbsenceLength()]."
+    m 5hubla "I missed you, [player]!"
 return
 
 init 5 python:
@@ -62,8 +65,8 @@ init 5 python:
     )
 
 label otter_firstses:
-    m "You got here on [mas_getCurrSeshStart()]."
-    m "I love you, [player]!"
+    m 3eub "You got here on [mas_getCurrSeshStart()]."
+    m 5hubla "I love you, [player]!"
 return "love"
 
 init 5 python:
@@ -79,8 +82,8 @@ init 5 python:
     )
 
 label otter_lastses:
-    m "You visited me for the last time on [mas_getLastSeshEnd()]."
-    m "I love you, [player]!"
+    m 3eub "You visited me for the last time on [mas_getLastSeshEnd()]."
+    m 5hubla "I love you, [player]!"
 return "love"
 
 init 5 python:
@@ -96,6 +99,6 @@ init 5 python:
     )
 
 label otter_totalses:
-    m "You visited me [mas_getTotalSessions()] times."
-    m "I love you, [player]!"
+    m 3eub "You visited me [mas_getTotalSessions()] times."
+    m 5hubla "I love you, [player]!"
 return "love"
