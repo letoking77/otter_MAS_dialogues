@@ -6,7 +6,7 @@ init 5 python:
             category=["monika"],
             prompt="How are you today, [m_name]?",
             pool=True,
-            unlocked=False
+            rules={"no_unlock": None}
             
         )
     )
