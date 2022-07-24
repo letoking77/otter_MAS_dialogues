@@ -5,6 +5,8 @@ init 5 python:
             eventlabel="otter_howareyou_BELLA",
             category=["monika"],
             prompt="How are you today, [m_name]?",
+            pool=True,
+            
         )
     )
 
